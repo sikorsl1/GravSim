@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="bDodaj" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="Reset" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="NazwaPlanetyLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="rbSavePositions" min="-2" max="-2" attributes="0"/>
+                              <Component id="KruchośćLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="TwadrośćLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="SpężystośćLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="MasaLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="PromieńLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfName" alignment="1" min="-2" pref="123" max="-2" attributes="0"/>
+                              <Component id="tfFagility" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfHardness" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfSpringness" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfMass" alignment="1" max="32767" attributes="0"/>
+                              <Component id="PrędkośćLabel" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfRadius" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfPosition" alignment="1" max="32767" attributes="0"/>
+                              <Component id="PołożenieLabel" alignment="1" max="32767" attributes="0"/>
+                              <Component id="tfVelicoty" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="bPokażEnergię" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="bStart" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="tfTimeStep" max="32767" attributes="0"/>
+                          <Component id="lTimeStep" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="32767" attributes="0"/>
+                      <Component id="DodajCiało" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="bZapiszCiała" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PokażSiatkę" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="NazwaPlanetyLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="Reset" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfName" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PołożenieLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfPosition" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PrędkośćLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfVelicoty" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="PromieńLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfRadius" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="MasaLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfMass" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="SpężystośćLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfSpringness" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="TwadrośćLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfHardness" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="KruchośćLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="tfFagility" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="rbSavePositions" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="bDodaj" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="DodajCiało" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bZapiszCiała" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PokażSiatkę" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="lTimeStep" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="8" max="32767" attributes="0"/>
+                              <Component id="tfTimeStep" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bPokażEnergię" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="bStart" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="Reset">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reset"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bPoka&#x17c;Energi&#x119;">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poka&#x17c; energi&#x119;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bPoka&#x17c;Energi&#x119;ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Poka&#x17c;Siatk&#x119;">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poka&#x17c; siatk&#x119; "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bZapiszCia&#x142;a">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zapisz cia&#x142;a"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bZapiszCia&#x142;aActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DodajCia&#x142;o">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj cia&#x142;o"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="NazwaPlanetyLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nazwa Palnety:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Po&#x142;o&#x17c;enieLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Po&#x142;o&#x17c;enie planety w kilometrach:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Pr&#x119;dko&#x15b;&#x107;Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sk&#x142;adowe pr&#x119;dko&#x15b;ci cia&#x142;a:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Promie&#x144;Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Promie&#x144; w kilometrach:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfRadius">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="MasaLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Masa w kilogramach:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfMass">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Sp&#x119;&#x17c;ysto&#x15b;&#x107;Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spr&#x119;&#x17c;ysto&#x15b;&#x107;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfSpringness">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Twadro&#x15b;&#x107;Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Twardo&#x15b;&#x107;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfHardness">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Krucho&#x15b;&#x107;Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Krucho&#x15b;&#x107;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfFagility">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="rbSavePositions">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zapisuj polo&#x17c;enia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bDodaj">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Dodaj!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bDodajActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfPosition">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0 0 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfVelicoty">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0 0 0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lTimeStep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Krok czasowy:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tfTimeStep">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bStart">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Start"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bStartActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
